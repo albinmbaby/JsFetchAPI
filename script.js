@@ -14,6 +14,6 @@ async function loadUserDetails() {
       document.getElementById("userName").innerText = userName;
       document.getElementById("userEmail").innerText = userEmail;
     } catch (error) {
-      console.error("Error fetching data", error);
+      console.error("Error fetching data:", error);
     }
   } 
